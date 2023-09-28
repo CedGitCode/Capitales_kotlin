@@ -1,7 +1,6 @@
-package com.example.les_capitales
+package com.example.drapeaux_europeens
 
 import android.content.Context
-import com.example.les_capitales.databinding.ActivityMainBinding
 import java.io.InputStream
 
 class Utils() {
@@ -12,7 +11,7 @@ class Utils() {
             var jsonString: String
 
             try {
-                input = context.assets.open("capital.json")
+                input = context.assets.open("country_capitals.json")
                 val size = input.available()
 
                 val buffer = ByteArray(size)

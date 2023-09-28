@@ -1,11 +1,10 @@
-package com.example.les_capitales
+package com.example.drapeaux_europeens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.les_capitales.databinding.ActivityMainBinding
-import com.example.les_capitales.models.CountrysObjectManagement
+import com.example.drapeaux_europeens.databinding.ActivityMainBinding
+import com.example.drapeaux_europeens.models.CountrysObjectManagement
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,10 +26,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // A pour but de récupérer le fichier assets/capital.json pour l'envoyer au countryObjectManagement
+    // A pour but de récupérer le fichier assets/country_capitals.json pour l'envoyer au countryObjectManagement
     private fun initializeResources() {
 
-        val jsonString = Utils.getJsonFromAssets(this, "capital.json")
+        val jsonString = Utils.getJsonFromAssets(this, "country_capitals.json")
 
         countryObjectManagement.transformJsonStringIntoArray(jsonString)
         val displayingAmountOfCountry = "0/${countryObjectManagement.getNumberOfCountrys()}"
@@ -63,7 +62,7 @@ class MainActivity : AppCompatActivity() {
     */
     private fun onClickValidButton() {
 
-        val valueInputPlayer = binding.guessCountryName.text.toString()
+        val valueInputPlayer = binding.guessCountryName.text.toString().trim()
         var messageToShowInToast = getString(R.string.badAnswer)
 
         if (valueInputPlayer.isEmpty()) return

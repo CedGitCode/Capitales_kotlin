@@ -1,4 +1,4 @@
-package com.example.les_capitales
+package com.example.drapeaux_europeens
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

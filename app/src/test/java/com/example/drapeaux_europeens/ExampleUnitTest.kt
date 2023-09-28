@@ -1,4 +1,4 @@
-package com.example.les_capitales
+package com.example.drapeaux_europeens
 
 import org.junit.Test
 

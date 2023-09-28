@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.les_capitales'
+    namespace 'com.example.drapeaux_europeens'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.les_capitales"
+        applicationId 'com.example.drapeux_europeens'
         minSdk 19
         targetSdk 33
         versionCode 1

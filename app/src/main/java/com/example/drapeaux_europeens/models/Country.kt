@@ -1,4 +1,4 @@
-package com.example.les_capitales.models
+package com.example.drapeaux_europeens.models
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

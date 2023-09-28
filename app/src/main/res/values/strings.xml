@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Les_capitales</string>
+    <string name="app_name">Drapeaux Européens</string>
     <string name="country_Name">Nom du pays</string>
     <string name="goodAnswer">Félicitations vous avez trouvé la réponse</string>
     <string name="badAnswer">Mauvaise réponse, il faut réessayer !</string>

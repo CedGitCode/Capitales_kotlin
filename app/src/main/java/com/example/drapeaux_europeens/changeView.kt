@@ -1,8 +1,8 @@
-package com.example.les_capitales
+package com.example.drapeaux_europeens
 
 import android.content.Context
 import android.widget.Toast
-import com.example.les_capitales.databinding.ActivityMainBinding
+import com.example.drapeaux_europeens.databinding.ActivityMainBinding
 
 class changeView {
 
